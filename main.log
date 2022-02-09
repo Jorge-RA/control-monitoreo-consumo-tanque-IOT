@@ -1,0 +1,48 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F252 -DL -O11111114 -fo4 -N"D:\Jorge\Codigos en Mikro C\Proyecto_Diplomado_Iot\main.mcppi" -SP"D:\MikroC Installed\mikroC PRO for PIC\Defs\" -SP"D:\MikroC Installed\mikroC PRO for PIC\uses\P18\" -SP"D:\Jorge\Codigos en Mikro C\Proyecto_Diplomado_Iot\" -IP"D:\MikroC Installed\mikroC PRO for PIC\uses\P18\" "main.c" "mqtt.c" "ec200.c" "lm35.c" "rf_module.c" "acs712_30A.c" "pzem004t.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_SoftUART.mcl" "__Lib_UART_c67.mcl"	 
+hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 172	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	main.c
+warning: 62	1509	Generated baud rate is 125000 bps (error = 8.51 percent)	main.c
+diagnostics: 178	123	Compiled Successfully	main.c
+diagnostics: 0	122	Compilation Started	mqtt.h
+warning: 1	1504	Initialization of extern object 'bufferRx'	main.h
+warning: 2	1504	Initialization of extern object 'indexBufferRx'	main.h
+warning: 3	1504	Initialization of extern object 'errorPZEMFlag'	main.h
+diagnostics: 46	123	Compiled Successfully	mqtt.c
+diagnostics: 0	122	Compilation Started	ec200.h
+warning: 1	1504	Initialization of extern object 'bufferRx'	main.h
+warning: 2	1504	Initialization of extern object 'indexBufferRx'	main.h
+warning: 3	1504	Initialization of extern object 'errorPZEMFlag'	main.h
+diagnostics: 43	123	Compiled Successfully	ec200.c
+diagnostics: 0	122	Compilation Started	lm35.h
+diagnostics: 16	123	Compiled Successfully	lm35.c
+hint: 4	1164	Variable 'voltaje' has been eliminated by optimizer	lm35.c
+diagnostics: 0	122	Compilation Started	rf_module.h
+warning: 1	1504	Initialization of extern object 'bufferRx'	main.h
+warning: 2	1504	Initialization of extern object 'indexBufferRx'	main.h
+warning: 3	1504	Initialization of extern object 'errorPZEMFlag'	main.h
+diagnostics: 39	123	Compiled Successfully	rf_module.c
+hint: 9	1164	Variable 'j' has been eliminated by optimizer	rf_module.c
+hint: 10	1164	Variable 'dato' has been eliminated by optimizer	rf_module.c
+diagnostics: 0	122	Compilation Started	acs712_30a.h
+diagnostics: 36	123	Compiled Successfully	acs712_30A.c
+hint: 6	1164	Variable 'time' has been eliminated by optimizer	acs712_30A.c
+hint: 11	1164	Variable 'corrientePico' has been eliminated by optimizer	acs712_30A.c
+hint: 12	1164	Variable 'corrienteRMS' has been eliminated by optimizer	acs712_30A.c
+diagnostics: 0	122	Compilation Started	pzem004t.h
+warning: 1	1504	Initialization of extern object 'bufferRx'	main.h
+warning: 2	1504	Initialization of extern object 'indexBufferRx'	main.h
+warning: 3	1504	Initialization of extern object 'errorPZEMFlag'	main.h
+hint: 16	1163	Variable 'msj' has been declared, but not used	pzem004t.c
+diagnostics: 73	123	Compiled Successfully	pzem004t.c
+hint: 21	1164	Variable 'dato' has been eliminated by optimizer	pzem004t.c
+hint: 21	1164	Variable 'time' has been eliminated by optimizer	pzem004t.c
+hint: 21	1164	Variable 'j' has been eliminated by optimizer	pzem004t.c
+diagnostics: 0	127	All files Compiled in 891 ms	 
+hint: 0	1144	Used RAM (bytes): 749 (49%)  Free RAM (bytes): 766 (51%)	Used RAM (bytes): 749 (49%)  Free RAM (bytes): 766 (51%)
+hint: 0	1144	Used ROM (bytes): 9732 (30%)  Free ROM (bytes): 23036 (70%)	Used ROM (bytes): 9732 (30%)  Free ROM (bytes): 23036 (70%)
+diagnostics: 0	125	Project Linked Successfully	main.mcppi
+diagnostics: 0	128	Linked in 141 ms	 
+diagnostics: 0	129	Project 'main.mcppi' completed: 1235 ms	 
+diagnostics: 0	103	Finished successfully: 21 dic. 2021, 13:25:31	main.mcppi
